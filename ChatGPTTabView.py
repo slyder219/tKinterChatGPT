@@ -13,7 +13,8 @@ sys.path.append(r"C:\Users\seanl\AppData\Local\Programs\Python\Python311\Lib\sit
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-key = "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"
+# get open ai key via env variable
+key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = key
 
 # Class we'll use to store the conversation and its abilities 

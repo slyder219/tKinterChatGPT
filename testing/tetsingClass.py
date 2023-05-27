@@ -1,6 +1,6 @@
 import openai
 
-key = "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"
+key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = key
 
 

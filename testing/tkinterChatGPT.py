@@ -11,7 +11,7 @@ sys.path.append(r"C:\Users\seanl\AppData\Local\Programs\Python\Python311\Lib\sit
 ctk.set_appearance_mode("dark")
 ctk.set_default_color_theme("blue")
 
-key = "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"
+key = os.environ.get("OPENAI_API_KEY")
 openai.api_key = key
 model = "gpt-3.5-turbo"
 
