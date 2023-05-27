@@ -1,0 +1,19 @@
+Help:
+
+Chat tab: 
+
+You can input messages in the bottom textbox. Use cntrl + enter to send them through. 
+Output will be displayed above in the large textbox and will decend with new messages. 
+
+Settings tab:
+
+Temperature Textbox: Enter 0 - 1 to change the confidence level of ChatGPt. 
+Then click "Change Temperature" to submit. 
+
+Clear Chat: Will clear output and reset AI conversation memory. 
+
+Save Current History: Will save just the input and output messages as a 
+".txt" file. 
+
+Advanced: Allows saving of the actual list of messages including roles in order to later 
+be uploaded back to pick up where it left off. 
